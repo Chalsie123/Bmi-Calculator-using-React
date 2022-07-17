@@ -1,38 +1,54 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  /* background: url("https://mcdn.wallpapersafari.com/medium/8/61/Whp20I.jpg") no-repeat center center/cover; */
+  /* background-color: yellowgreen; */
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background: url("https://mcdn.wallpapersafari.com/medium/8/61/Whp20I.jpg") no-repeat center center/cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head {
+  /* background-color: lightblue; */
+  margin: 0;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.foot {
+  /* background-color: purple; */
+  padding: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.form {
+  /* background-color: greenyellow; */
+  height: 47.3vh;
+  padding-top: 70px;
+  border-spacing: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+input {
+  border-style: ridge;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  margin-right: 100px;
+  position: relative;
+}
+
+button {
+  margin-right: 50px;
+  position: relative;
+}
+
+.details {
+  /* background-color: aqua; */
+  text-align: center;
+  height: 30vh;
+  position: relative;
 }
